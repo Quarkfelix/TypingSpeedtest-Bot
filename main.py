@@ -11,7 +11,7 @@ browser.visit('https://10fastfingers.com/typing-test/german')
 #allow cookies and get inputfield
 allow = browser.find_by_id('CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll')
 allow.click()
-time.sleep(3)
+time.sleep(10)
 inputfield = browser.find_by_id('inputfield')
 
 print("start")
